@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - '~'
+  - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - layer1
@@ -195,3 +195,6 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [0, 12]
+  k: SLEEP
