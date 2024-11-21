@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - layer1
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - '2'
@@ -171,10 +171,10 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - OUT BLE
-  - {t: '=', s: +}
-  - {t: '-', s: _}
-  - +
-  - '{'
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
   - '}'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '[', s: '{'}
