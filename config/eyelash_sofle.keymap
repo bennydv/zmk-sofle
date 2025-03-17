@@ -17,12 +17,12 @@
 
 &msc {
     acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
+    time-to-max-speed-ms = <400>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <500>;
+    time-to-max-speed-ms = <900>;
     acceleration-exponent = <1>;
     trigger-period-ms = <16>;
 };
@@ -31,16 +31,16 @@
 / {
 
    behaviors {
-        mmv {
-            acceleration-exponent = <1>;      // 1
-            time-to-max-speed-ms = <900>;    // 40
-            delay-ms = <0>;                   // 0
-        };
-
         msc {
             acceleration-exponent = <1>;      // 0
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   //   10
+        };
+
+        mmv {
+            acceleration-exponent = <1>;      // 1
+            time-to-max-speed-ms = <900>;    // 40
+            delay-ms = <0>;                   // 0
         };
     };
 
