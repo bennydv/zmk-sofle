@@ -650,6 +650,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
 <text x="462" y="56" class="combo tap">SLEEP</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-layer1">
@@ -1012,6 +1016,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
 <text x="462" y="56" class="combo tap">SLEEP</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-2">
@@ -1366,6 +1374,10 @@ rect.held, rect.combo.held {
 <path d="M462,56 l415,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
 <text x="462" y="56" class="combo tap">SLEEP</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 </g>
 </g>

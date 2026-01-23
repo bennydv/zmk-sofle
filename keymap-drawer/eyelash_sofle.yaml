@@ -198,3 +198,5 @@ layers:
 combos:
 - p: [0, 12]
   k: SLEEP
+- p: [30, 29]
+  k: $$mdi:keyboard-esc$$
