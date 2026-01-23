@@ -80,6 +80,11 @@
             bindings = <&kp K_SLEEP>;
             key-positions = <0 12>;
         };
+
+        escapedf {
+            bindings = <&kp ESCAPE>;
+            key-positions = <30 29>;
+        };
     };
 
     keymap {
